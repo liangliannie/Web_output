@@ -1,0 +1,455 @@
+actual N immobilization
+actual P immobilization
+adsorb P flux
+aboveground NPP
+aboveground wood NPP
+current active layer thickness
+maximum annual active layer thickness
+maximum prior year active layer thickness
+autotrophic respiration (MR + GR)
+C flux available for allocation
+P flux available from retranslocation pool
+fractional area burned for crop
+fractional area burned in peatland
+total BC deposition (dry+wet) from atmosphere
+belowground NPP
+biochemical rate of P mineralization
+transpiration beta factor
+heat flux from urban building interior to walls and roof
+Gridcell total production of CH4
+aerenchyma surface CH4 flux for inundated area; (+ to atm)
+aerenchyma surface CH4 flux for non-inundated area; (+ to atm)
+diffusive surface CH4 flux for inundated / lake area; (+ to atm)
+diffusive surface CH4 flux for non-inundated area; (+ to atm)
+ebullition surface CH4 flux for inundated / lake area; (+ to atm)
+ebullition surface CH4 flux for non-inundated area; (+ to atm)
+column-level sink for P truncation
+temporary photosynthate C pool
+CWD C
+coarse woody debris C heterotrophic respiration
+coarse woody debris C loss
+decomp. of coarse woody debris C to litter 2 C
+decomp. of coarse woody debris C to litter 3 C
+CWD N
+decomp. of coarse woody debris N to litter 2 N
+decomp. of coarse woody debris N to litter 3 N
+CWD P
+decomp. of coarse woody debris P to litter 2 N
+decomp. of coarse woody debris P to litter 3 N
+dead coarse root C
+dead coarse root N
+dead coarse root P
+dead stem C
+dead stem N
+dead stem P
+total rate of denitrification
+desorp P flux
+displayed veg carbon, excluding storage and cpool
+displayed vegetation nitrogen
+displayed vegetation phosphorus
+total dust deposition (dry+wet) from atmosphere
+total surface dust emission
+net change in total water mass
+dynamic land cover change conversion energy flux
+net heat flux into lake/snow surface, excluding light transmission
+total latent heat flux [+ to atm]
+Rural total evaporation
+Urban total evaporation
+exposed one-sided leaf area index
+total ecosystem respiration, autotrophic + heterotrophic
+total water conservation error
+imbalance in snow depth (liquid water)
+surface energy conservation error
+soil/lake energy conservation error
+solar radiation conservation error
+exposed one-sided stem area index
+timestep fractional area burned
+canopy evaporation
+Gridcell surface CH4 flux to atmosphere (+ to atm)
+Gridcell oxidation of CH4 to CO2
+CH4 additional flux due to changing fsat, vegetated landunits only
+fractional impermeable area
+canopy transpiration
+ground evaporation
+heat flux into soil/snow including snow melt and lake / snow light transmission
+heat flux between soil layers 1 and 2
+Rural heat flux into soil/snow including snow melt and snow light transmission
+Urban heat flux into soil/snow including snow melt
+fraction of ground covered by surface water
+fractional inundated area of vegetated columns
+time-lagged inundated fraction of vegetated columns
+net infrared (longwave) radiation
+Rural net infrared (longwave) radiation
+Urban net infrared (longwave) radiation
+emitted infrared (longwave) radiation
+Rural emitted infrared (longwave) radiation
+Urban emitted infrared (longwave) radiation
+atmospheric longwave radiation
+fraction of potential gpp due to N limitation
+fraction of potential gpp due to P limitation
+fraction of potential immobilization of nitrogen
+fraction of potential immobilization of phosphorus
+photosynthesis
+Rubisco-limited photosynthesis
+RuBP-limited photosynthesis
+Product-limited photosynthesis
+fine root C
+fine root C allocation
+fine root C loss
+fine root N
+fine root P
+frost table depth (vegetated landunits only)
+absorbed solar radiation
+fractional area with water table at surface
+Rural absorbed solar radiation
+Urban absorbed solar radiation
+atmospheric incident solar radiation
+direct nir incident solar radiation
+direct nir incident solar radiation at local noon
+diffuse nir incident solar radiation
+direct vis incident solar radiation
+direct vis incident solar radiation at local noon
+diffuse vis incident solar radiation
+diffuse vis incident solar radiation at local noon
+sensible heat
+sensible heat from ground
+sensible heat not including correction for land use change
+Rural sensible heat
+Urban sensible heat
+sensible heat from veg
+snow melt heat flux
+Rural snow melt heat flux
+Urban snow melt heat flux
+fraction of ground covered by snow
+effective fraction of ground covered by snow
+reflected solar radiation
+direct nir reflected solar radiation
+direct nir reflected solar radiation at local noon
+diffuse nir reflected solar radiation
+direct vis reflected solar radiation
+direct vis reflected solar radiation at local noon
+diffuse vis reflected solar radiation
+total soil-atm. CO2 exchange
+denitrification flux
+denitrification N2O flux
+nitrification N2O flux
+nitrification flux
+initial gridcell total heat content
+initial gridcell total ice content
+initial gridcell total liq content
+gross primary production
+total growth respiration
+gross rate of N mineralization
+gross rate of P mineralization
+intercepted water
+surface water depth
+snow depth (liquid water)
+mass of snow in top snow layer
+heat content of soil/snow/lake
+soil heat content
+sensible heat flux put into canyon due to heat removed from air conditioning
+total heterotrophic respiration
+canopy top
+accumulated swe (vegetated landunits only)
+soil Labile P
+LABILE P TO SECONDARY MINERAL P
+shaded projected leaf area index
+sunlit projected leaf area index
+thickness of lake ice (including physical expansion on freezing)
+NEE minus LAND_USE_FLUX, negative for update
+total C emitted from land cover conversion and wood product pools
+leaf C
+leaf C allocation
+leaf C loss
+leaf C litterfall
+leaf N
+leaf P
+leaf maintenance respiration
+conversion area fraction of BET and BDT that burned
+litterfall (leaves and fine roots)
+litter heterotrophic respiration
+LITR1 C
+decomp. of litter 1 C to soil 1 C
+LITR1 N
+decomp. of litter 1 N to soil 1 N
+LITR1 P
+decomp. of litter 1 P to soil 1 N
+Het. Resp. from litter 1
+LITR2 C
+decomp. of litter 2 C to soil 2 C
+LITR2 N
+decomp. of litter 2 N to soil 2 N
+LITR2 P
+decomp. of litter 2 P to soil 2 N
+Het. Resp. from litter 2
+LITR3 C
+decomp. of litter 3 C to soil 3 C
+LITR3 N
+decomp. of litter 3 N to soil 3 N
+LITR3 P
+decomp. of litter 3 P to soil 3 N
+Het. Resp. from litter 3
+litter C
+litter C heterotrophic respiration
+litter C loss
+live coarse root C
+live coarse root N
+live coarse root P
+live stem C
+live stem N
+live stem P
+maintenance respiration
+litter 1 C leaching loss
+litter 2 C leaching loss
+litter 3 C leaching loss
+soil 1 C leaching loss
+soil 2 C leaching loss
+soil 3 C leaching loss
+soil 4 C leaching loss
+net biome production, includes fire, landuse, and harvest flux, positive for sink
+total N deployed in new growth
+atmospheric N deposition to soil mineral N
+net ecosystem exchange of carbon, includes fire, landuse, harvest, and hrv_xsmrpool flux, positive for source
+Gridcell net adjustment to NEE passed to atm. for methane production
+net ecosystem production, excludes fire, landuse, and harvest flux, positive for sink
+net rate of N mineralization
+net rate of P mineralization
+fire counts valid only in Reg.C
+symbiotic/asymbiotic N fixation to soil mineral N
+net primary production
+soil occluded P
+total OC deposition (dry+wet) from atmosphere
+absorbed par by vegetation at local noon
+atmospheric pressure
+atmospheric partial pressure of CH4
+atmospheric partial pressure of CO2
+total P deployed in new growth
+atmospheric P deposition to soil mineral P
+total patch-level fire C loss for non-peat fires outside land-type converted region
+total pft-level fire N loss
+total allocated C flux
+N flux required to support initial GPP
+N flux required to support initial GPP
+total allocated P flux
+P flux required to support initial GPP
+P flux required to support initial GPP
+potential N immobilization
+potential P immobilization
+potential denitrification flux
+potential nitrification flux
+soil primary P
+PRIMARY MINERAL P TO LABILE P
+loss from 1-yr crop product pool
+shaded leaf photosynthesis
+C fixation from shaded canopy
+sunlit leaf photosynthesis
+C fixation from sunlit canopy
+2m specific humidity
+atmospheric specific humidity
+aquifer recharge rate (vegetated landunits only)
+sub-surface drainage
+perched wt drainage
+saturation excess drainage
+throughfall
+runoff from river flooding
+ice dynamic land cover change conversion runoff flux
+liq dynamic land cover change conversion runoff flux
+surface water runoff
+infiltration
+interception
+water added through irrigation
+surface runoff
+time-lagged surface runoff for soil columns
+surface runoff at glaciers (liquid only), wetlands, lakes
+total liquid runoff (does not include QSNWCPICE)
+total liquid runoff (does not include QSNWCPICE) not including correction for land use change
+Rural total runoff
+Urban total runoff
+snow melt
+excess snowfall due to snow capping
+excess snowfall due to snow capping not including correction for land use change
+Ground evaporation (soil/snow evaporation + soil/snow sublimation - dew)
+canopy evaporation
+canopy transpiration
+atmospheric rain
+plant pool of retranslocated N
+deployment of retranslocated N
+plant pool of retranslocated P
+deployment of retranslocated P
+2m relative humidity
+Rural 2m specific humidity
+Urban 2m relative humidity
+root respiration (fine root MR + total root GR)
+solar rad absorbed by ground
+Rural solar rad penetrating top soil or snow layer
+solar rad absorbed by veg
+soil secondary P
+SECONDARY MINERAL P TO LABILE P
+SECONDARY MINERAL P TO OCCLUDED P
+soil mineral N
+deployment of soil mineral N uptake
+plant uptake of soil mineral N
+mineral N flux for decomp. of LITR1to SOIL1
+mineral N flux for decomp. of LITR2to SOIL2
+mineral N flux for decomp. of SOIL1to SOIL2
+mineral N flux for decomp. of LITR3to SOIL3
+mineral N flux for decomp. of SOIL2to SOIL3
+mineral N flux for decomp. of SOIL3to SOIL4
+soil mineral P
+soil mineral P pool loss to leaching
+plant uptake of soil mineral P
+deployment of soil mineral P uptake
+mineral P flux for decomp. of LITR1to SOIL1
+mineral P flux for decomp. of LITR2to SOIL2
+mineral P flux for decomp. of SOIL1to SOIL2
+mineral P flux for decomp. of LITR3to SOIL3
+mineral P flux for decomp. of SOIL2to SOIL3
+mineral P flux for decomp. of SOIL3to SOIL4
+soil mineral NH4
+soil mineral NO3
+soil NO3 pool loss to leaching
+soil NO3 pool loss to runoff
+mass of BC in snow column
+mass of BC in top snow layer
+mass of dust in snow column
+mass of dust in top snow layer
+Percent of incoming solar absorbed by lower snow layers
+mass of OC in snow column
+mass of OC in top snow layer
+atmospheric snow
+gridcell mean snow height
+snow ice
+snow liquid water
+snow height of snow covered area
+snow sinks (liquid water)
+snow sources (liquid water)
+SOIL1 C
+decomp. of soil 1 C to soil 2 C
+SOIL1 N
+decomp. of soil 1 N to soil 2 N
+SOIL1 P
+decomp. of soil 1 P to soil 2 N
+Het. Resp. from soil 1
+SOIL2 C
+decomp. of soil 2 C to soil 3 C
+SOIL2 N
+decomp. of soil 2 N to soil 3 N
+SOIL2 P
+decomp. of soil 2 P to soil 3 N
+Het. Resp. from soil 2
+SOIL3 C
+decomp. of soil 3 C to soil 4 C
+SOIL3 N
+decomp. of soil 3 N to soil 4 N
+SOIL3 P
+decomp. of soil 3 P to soil 4 N
+Het. Resp. from soil 3
+SOIL4 C
+SOIL4 N
+mineral N flux for decomp. of SOIL4
+SOIL4 P
+mineral P flux for decomp. of SOIL4
+Het. Resp. from soil 4
+soil C
+soil C heterotrophic respiration
+soil C loss
+soil liquid water + ice in top 10cm of soil (veg landunits only)
+soil solution P
+soil organic matter heterotrophic respiration
+total flux of C from SOM pools due to leaching
+total soil respiration (HR + root resp)
+stored vegetation carbon, excluding cpool
+stored vegetation nitrogen
+stored vegetation phosphorus
+supplemental N supply
+supplemental P supply
+factor limiting ground evap
+urban factor limiting ground evap
+zonal surface stress
+meridional surface stress
+atmospheric air temperature
+internal urban building temperature
+ground temperature
+Rural ground temperature
+Urban ground temperature
+surface water temperature
+atmospheric air potential temperature
+top lake level eddy thermal conductivity
+total projected leaf area index
+total column carbon, incl veg and cpool
+total belowground CH4, (0 for non-lake special landunits)
+total column-level N
+total column-level P
+total ecosystem carbon, incl veg but excl cpool
+total ecosystem N
+total ecosystem P
+total litter carbon
+total litter carbon to 1 meter depth
+total litter N
+total litter P
+total litter P to 1 meter
+total patch-level carbon, including cpool
+total PFT-level nitrogen
+total PFT-level phosphorus
+total soil organic matter carbon
+total soil organic matter carbon to 1 meter depth
+total soil organic matter N
+total soil organic matter P
+total soil organic matter P to 1 meter
+total vegetation carbon, excluding cpool
+total aboveground vegetation carbon, excluding cpool
+total vegetation nitrogen
+total vegetation phosphorus
+daily minimum of average 2-m temperature
+Rural daily minimum of average 2-m temperature
+Urban daily minimum of average 2-m temperature
+daily maximum of average 2-m temperature
+Rural daily maximum of average 2-m temperature
+Urban daily maximum of average 2-m temperature
+2m air temperature
+total projected stem area index
+Rural 2m air temperature
+Urban 2m air temperature
+soil temperature in top 10cm of soil
+vegetation temperature
+total water storage
+10-m wind
+urban air conditioning flux
+urban heating flux
+river channel total water storage
+river channel main channel water storage
+water in the unconfined aquifer (vegetated landunits only)
+sensible heat flux from heating/cooling sources of urban waste heat
+soil water as frac. of whc for top 0.05 m
+atmospheric wind velocity magnitude
+wood C
+wood C eallocation
+wood C loss
+wood harvest carbon (to product pools)
+wood harvest N (to product pools)
+surface tracer conductance
+total excess respiration
+temporary photosynthate C pool
+atmospheric reference height
+water table depth (vegetated landunits only)
+depth of water table for methane production used in non-inundated area
+perched water table depth (vegetated landunits only)
+N limitation factor
+P limitation factor
+leaf np imbalance partial C partial P/partial C partial N
+Carbon use efficience (NPP/GPP)
+Evapotranspiration(QSOIL + QVEGE + QVEGT)
+GPP use efficience (GPP / TLAI)
+Latent heat flux (FCTR + FCEV + FGET)
+Available land water (RAIN + SNOW - ET)
+Precipitation (RAIN + SNOW)
+Runoff (QOVER + QDRAI + QRGWL)
+Averaged soil moisture at 1m depth (SOILLIQ + SOILICE)
+Water use efficiency (GPP/ET)
+Total stem biomass (livestemc+deadstemc)
+Total below-ground biomass (roots biomass, frootc+livecrootc+deadcrootc)
+Total above-ground biomass (leafc+livestemc+deadstemc)
+Total above-ground versus below-ground biomass ratio (leafc+livestemc+deadstemc)/(frootc + livecrootc + deadcrootc)
+Total below-ground soil carbon (totsomc+totlitc+cwdc)
+Total below-ground soil and vegetation (roots) carbon (frootc+livecrootc+deadcrootc+totsomc+totlitc+cwdc)
+CO2_PPMV ((pco2/pbot_t) * 1e6)
