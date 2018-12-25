@@ -1,6 +1,16 @@
+import os
+print('Tell me where you want to generate you file?\n')
+print('such as /Users/lli51/Documents/Jiafu_Web/')
+web_dir = raw_input("Enter here:")
+if os.path.isdir(web_dir):
+    print('Please input all you pictures inside a folder under these direction, including 3D_vars_name_for_ann.txt and 3D_vars_longname_for_ann.txt\n')
+    print('such as /Users/lli51/Documents/Jiafu_Web/tmp_png/')
+    file_dir = raw_input("Enter here:")
 
-file_dir = "/Users/lli51/Documents/Jiafu_Web/tmp_png/"
-web_dir ='/Users/lli51/Documents/Jiafu_Web/'
+
+
+# file_dir = "/Users/lli51/Documents/Jiafu_Web/tmp_png/"
+# web_dir ='/Users/lli51/Documents/Jiafu_Web/'
 
 # variablelist = ['GPP', 'HR']
 # variablelongnamelist = ['GPP', 'HR']
@@ -22,7 +32,7 @@ front = """
 <html>
   <head>
     <title>Results</title>
-    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"></link>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script>
       $(document).bind('mobileinit',function(){
@@ -53,6 +63,56 @@ front = """
       $('.child').toggle();
       });
     </script>
+    
+   <style type="text/css">
+  .table-container {
+  border: 1px solid #C4EA59;
+  display: inline-block;
+  height: 680px;
+  padding-top: 1.875em;
+  position: relative;
+}
+.table-container > div {
+  border-color: #C4EA59;
+  border-style: solid;
+  border-width: 1px 1px 2px 1px;
+  height: 1.7em;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+table {
+  display: block;
+  height: 680px;
+  overflow-y: auto;
+}
+th {
+  padding: 0 5px;
+  text-align: center;
+}
+
+th:child > div {
+  border-left: none;
+  padding-left: 7px;
+}
+
+th > div {
+  border-left: 2px solid #C4EA59;
+  line-height: 1.875em;
+  margin-left: -6px;
+  padding-left: 5px;
+  position: absolute;
+  top: 0;
+}
+td {
+  border-color: #C4EA59;
+  border-style: solid;
+  border-width: 0 1px 2px 1px;
+  padding: 5px;
+}
+  </style> 
+      
     <style>
       div.arrow {
         background:transparent url(arrows.png) no-repeat scroll 0px -16px;
@@ -82,6 +142,7 @@ front = """
   <body>
     <div data-role="page" id="pageOverview">
       <div data-role="header" data-position="fixed" data-tap-toggle="false">
+	
 	<h1> The length of the diagnostics is between 1850 and 2010. </h1>
 	<h2> The legend of individual models is at <a href="./tmp_png/Legend_models.png" rel="external" target="_blank">HERE</a>  </h2>
 	<div data-role="navbar">
@@ -92,20 +153,21 @@ front = """
       </div>
         <div data-role="main" class="ui-content">
 <!--        <div data-role="collapsible" data-collapsed="false"> <h1>Output Results1</h1>-->
+<div class="table-container">
 	<table data-role="table" data-mode="columntoggle" class="ui-responsive ui-shadow" id="meanTable">
 <thead>
 	    <tr>
-              <th data-priority="1">Short Name </th>
-              <th data-priority="1">Long Name </th>
-              <th data-priority="1">DJF</th>
-              <th data-priority="1">MAM</th>
-              <th data-priority="1">JJA</th>
-              <th data-priority="1">SON</th>
-              <th data-priority="1">AM</th>
-              <th data-priority="1">GS</th>
-              <th data-priority="1">SO</th>
-              <th data-priority="1">ANN</th>
-              <th style="width:20px"></th>
+              <th style="width:18%" data-priority="1"><div>Short Name</div> </th>
+              <th style="width:18%" data-priority="1"><div>Long Name</div> </th>
+              <th style="width:8%" data-priority="1"><div>DJF</div></th>
+              <th style="width:8%" data-priority="1"><div>MAM</div></th>
+              <th style="width:8%" data-priority="1"><div>JJA</div></th>
+              <th style="width:8%" data-priority="1"><div>SON</div></th>
+              <th style="width:8%" data-priority="1"><div>AM</div></th>
+              <th style="width:8%" data-priority="1"><div>GS</div></th>
+              <th style="width:8%" data-priority="1"><div>SO</div></th>
+              <th style="width:8%" data-priority="1"><div>ANN</div></th>
+              <th style="width:0%"></th>
 	    </tr>
 	  </thead>
           <tbody>
@@ -114,6 +176,7 @@ front = """
 
 tail  = """ </tbody>
 </table>
+</div>
 <!--        </div>-->
 </div>
 </div>
@@ -156,7 +219,7 @@ for j, var in enumerate(variablelist):
                           <tr class="parent" bgcolor="#ECFFE6">
                           <td> %s </td> <td> %s </td>
                           <td>   </td><td>   </td><td>   </td><td>   </td> <td>   </td><td>   </td><td>   </td><td>   </td>
-                          <td><div class="arrow"></div></td></tr>""" % (var,variablelongnamelist[j])
+                          </tr>""" % (var,variablelongnamelist[j])
     body += variable_parent
 
     var_files=[]
@@ -208,7 +271,7 @@ for j, var in enumerate(variablelist):
         if len(feather)==1:
             variable_child = """ <tr class="child" bgcolor="#e0f2da">
                                       <td>&nbsp;&nbsp;&nbsp;<a href="./tmp_png/%s" rel="external" target="_blank">%s</a>&nbsp;</td>
-                                      <td> </td> <td>%s</td>  <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td><div class="arrow"></div></td></tr>
+                                      <td> </td> <td>%s</td>  <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> </tr>
                         """ % (f, feathername[i], '-- ', '-- ', '-- ', '-- ', '-- ', '-- ', '-- ', '-- ')
         else:
             link = feathername[i]
@@ -244,13 +307,12 @@ for j, var in enumerate(variablelist):
 
             variable_child = """ <tr class="child" bgcolor="#e0f2da">
                               <td> %s </td><td>   </td> <td> %s </td> <td> %s </td> <td> %s </td> <td> %s </td> <td> %s </td> <td> %s </td> <td> %s </td> <td> %s </td>
-                                                        <td><div class="arrow"></div></td></tr>
+                                                        </tr>
                 """ % (link, linkDJF, linkMAM, linkJJA, linkSON, linkam, linkgs, linkso, linkann)
         body += variable_child
 
 contents = front + body + tail
-browseLocal(contents, web_dir, 'Website_lli.html')
+browseLocal(contents, web_dir, 'index.html')
 
-# print('These files need to be added', others)
-# print('\n')
-print('The website is generated to ' + web_dir + 'Website_lli.html')
+
+print('The website is generated to ' + web_dir + 'index.html')
